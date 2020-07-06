@@ -2,10 +2,10 @@
 	"name": "bantu-backend",
 	"version": "1.0.0",
 	"description": "",
-	"main": "src/index.js",
+	"main": "index.js",
 	"scripts": {
-		"start": "nodemon src/index",
-		"build": "node src/index"
+		"start:dev": "nodemon index",
+		"start": "node index"
 	},
 	"author": "",
 	"license": "ISC",

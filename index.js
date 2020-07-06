@@ -3,7 +3,7 @@ var pg = require("pg");
 require("dotenv").config();
 const cors = require("cors");
 
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8000;
 // connect db
 const client = new pg.Client(process.env.ELEPHANT_SQL_CONNECTION_STRING);
 client.connect((err) => err && console.error("could not connect to postgres on elephantsql", err));
